@@ -1,0 +1,14 @@
+.cartAndDetails{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.cartDetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartDetailText {
+    font-weight: 700;
+    font-size: 20px;
+}

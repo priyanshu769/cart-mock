@@ -1,0 +1,88 @@
+.cartProductCard {
+    border: 1px solid var(--off-white);
+    border-radius: 0.5rem;
+    box-shadow: 2px 3px var(--off-white);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartProductImgContainer {
+    width: 8rem;
+}
+
+.cartProductName {
+    font-weight: bold;
+    padding: 0 1rem;
+    border-bottom: 1px solid var(--primary-dark);
+}
+
+.cartProductPrice {
+    font-weight: 600;
+    padding: 0 1rem;
+}
+
+.cardQuantity {
+    border: 1px solid var(--primary-dark);
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.removeBtn {
+    font-family: 'Poppins' sans-serif;
+    cursor: pointer;
+    border: 2px solid var(--off-grey);
+    border-radius: 0.5rem;
+    background: none;
+    color: var(--off-grey);
+    font-weight: 600;
+}
+
+.removeBtn:hover {
+    border: 2px solid var(--primary-dark);
+    border-radius: 0.5rem;
+    color: var(--primary-dark);
+}
+
+.btnPlusMinus {
+    font-family: 'Poppins' sans-serif;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btnPlusMinus:hover {
+    border-bottom: 1px solid var(--primary-dark);
+}
+
+@media only screen and (max-width: 480px) {
+    .cartProductCard {
+        width: 20rem;
+        justify-content: space-between;
+    }
+
+    .cartProductImgContainer {
+        width: 5rem
+    }
+
+    .cartProductDetails {
+        width: 12rem;
+        margin: 0;
+    }
+
+    .cartProductName {
+        font-size: 75;
+        margin: 0;
+    }
+
+    .cartProductPrice {
+        margin: 0;
+    }
+}

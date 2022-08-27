@@ -1,0 +1,48 @@
+.productCard {
+    width: 16rem;
+    border: 1px solid var(--white);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.productCard:hover {
+    box-shadow: 2px 5px 5px var(--grey);
+}
+
+.productImgContainer {
+    height: 20rem;
+}
+
+.productImg {
+    display: block;
+    max-width: 100%;
+    max-height: 20rem;
+    margin: auto;
+}
+
+.productBrandName {
+    color: var(--dark-grey);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.productName {
+    font-weight: 400;
+    max-height: 2rem;
+    min-height: 2rem;
+}
+
+.prodcutPrice {
+    font-size: larger;
+    font-weight: 900;
+    margin: 0;
+}
+
+.addToCartButton {
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+}
